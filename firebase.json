@@ -1,0 +1,37 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "bro-car-631ce",
+          "appId": "1:502894037216:android:55f9db8aa0fb556a946885",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "bro-car-631ce",
+          "configurations": {
+            "android": "1:502894037216:android:55f9db8aa0fb556a946885",
+            "ios": "1:502894037216:ios:3f7b6b9509c651eb946885",
+            "web": "1:502894037216:web:6e43d1b4e1140428946885"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
